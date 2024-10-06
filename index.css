@@ -31,6 +31,7 @@ body {
 
 .search-container hr {
     max-width: 20rem;
+    color: white;
 }
 
 .search-container h1 {
