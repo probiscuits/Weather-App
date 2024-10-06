@@ -1,0 +1,64 @@
+html {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  background-image: url("https://images.pexels.com/photos/1431822/pexels-photo-1431822.jpeg?cs=srgb&dl=pexels-brett-sayles-1431822.jpg&fm=jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.search {
+  text-align: center;
+  padding: 3rem;
+  max-width: 400px;
+  margin: 0 auto;
+  border-radius: 0.5rem;
+  background: linear-gradient(
+    129deg,
+    rgba(255, 255, 255, 0.35) 0%,
+    rgba(255, 255, 255, 0.15) 100%
+  );
+  backdrop-filter: blur(8px);
+}
+
+.search h1 {
+  font-size: 3rem;
+  margin-top: 0;
+}
+
+.input-container {
+  display: flex;
+  justify-content: center;
+}
+
+.input-container > * {
+  border: 2px solid black;
+  border-radius: 0;
+  padding: 0.75rem 1rem;
+}
+.input-container > *:focus {
+  z-index: 1;
+}
+
+.input-container input {
+  border-top-left-radius: 100px;
+  border-bottom-left-radius: 100px;
+}
+
+.input-container button {
+  margin-left: -2px;
+  cursor: pointer;
+  border-top-right-radius: 100px;
+  border-bottom-right-radius: 100px;
+  background: black;
+  color: white;
+}
+
+.input-container button:hover {
+  background: #505050;
+}
