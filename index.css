@@ -1,0 +1,86 @@
+html, body {
+    margin: 0;
+    border: 0;
+    padding:0;
+}
+
+body {
+/* Background */
+    background-image: url("https://ncas.ac.uk/app/uploads/2020/05/Climate-Weather-Blue-Clouds-1280px.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(170, 203, 231);
+
+/* Font */
+    font-size: 1rem;
+    font-family: "outfit", sans-serif;
+    text-align: center;
+
+/* Spacing */
+    padding-top: 20vw;
+
+/* height */
+    min-height: 100vh;
+    
+}
+
+.search-container label {
+    display: block;
+    margin: 2rem 1rem;
+}
+
+.search-container hr {
+    max-width: 20rem;
+}
+
+.search-container h1 {
+    margin: 0;
+}
+
+.search-container {
+    background-color: rgba(255,255,255,0.3);
+    padding: 2rem;
+    border-radius: 20px;
+    max-width:30rem;
+    margin: auto;
+    backdrop-filter: blur(8px);
+}
+
+.input-container {
+    display: flex;
+    justify-content: center;
+}
+
+.input-container * {
+    border: 2px solid black;
+    padding: 0.75rem 1rem;
+}
+
+.input-container input {
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+}
+
+.input-container button {
+    cursor: pointer;
+    margin-left: -2px;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+    background-color: rgb(96, 164, 243);
+}
+
+.input-container button:hover {
+    background-color: rgb(255, 255, 119);
+}
+
+/* 
+
+#id {
+    property: property-value;
+}
+
+.class-name {
+    property: property-value;
+}
+    
+*/
